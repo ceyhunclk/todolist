@@ -5,7 +5,7 @@ import styles from "./Todo.style";
 const Todo=(props)=>{
 return (
 <View style={styles.body}>
-    <Pressable onLongPress={props.deletetodo} onPress={props.checktodo}><Text style={props.items.status ? styles.text : styles.text2}>{props.items.name}</Text></Pressable>
+    <Pressable onLongPress={props.deletetodo} onPress={props.checktodo}><Text style={props.items.status ? styles.text2 : styles.text}>{props.items.name}</Text></Pressable>
 </View> 
 
 )
